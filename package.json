@@ -1,9 +1,9 @@
 {
-    "name":"node-server",
-    "description": "A sample node.js app using Express4",
-    "dependencies": {
-        "express": "*"
-    },
-    "author": "Tosin Daniel",
-    "license": "MIT"
+  "name": "node-server",
+  "description": "A sample node.js app using Express4",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "Tosin Daniel",
+  "license": "MIT"
 }
