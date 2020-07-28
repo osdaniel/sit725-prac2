@@ -9,6 +9,7 @@ let port = 3000;
 app.listen(port);
 console.log('Server listening on port '+port)
 
+//create function to get the sum of two numbers
 let addition = (numA, numB)=> {
     let sum = numA + numB;
     return sum;
