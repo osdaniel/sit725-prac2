@@ -21,3 +21,13 @@ app.get('/addition',function(req,res){
     let sum=addition(numA,numB);
     res.send('Sum of numbers is:' +sum);
 })
+
+let accounts = [
+    {id:1, name:'Alex', deposit:5},
+    {id:2, name:'Sarah', deposit:5},
+    {id:3, name:'Jim', deposit: 15}
+]
+
+app.get('/array', function(req){
+    return res.send (Object.values(accounts))
+});
